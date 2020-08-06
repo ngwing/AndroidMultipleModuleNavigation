@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/main_dest">
+
+    <fragment
+        android:id="@+id/main_dest"
+        android:name="com.test.navi.view.MainFragment"
+        tools:layout="@layout/main_fragment">
+
+        <action
+            android:id="@+id/navi_to_lib_module"
+            app:destination="@+id/lib_module_dest"/>
+
+    </fragment>
+
+    <activity
+        android:id="@+id/lib_module_dest"
+        android:name="com.test.TestActivity"
+        android:label="Search"/>
+
+
+</navigation>

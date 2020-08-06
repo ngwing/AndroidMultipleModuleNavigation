@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.test.navi.lib2">
+
+    <application>
+        <activity
+            android:name="com.test.Test2Activity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
